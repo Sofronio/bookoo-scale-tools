@@ -13,8 +13,11 @@ Web Bluetooth 需要安全上下文（HTTPS 或 localhost），不要直接用 `
 python3 -m http.server 8000
 ```
 
-Chrome 打开 <http://localhost:8000/>。也可以把仓库根目录直接部署到任意静态托管
-或 GitHub Pages。
+Chrome 打开 <http://localhost:8000/>。
+
+在线版：<https://sofronio.github.io/bookoo-scale-tools/>
+
+也可以把仓库根目录直接部署到任意静态托管或 GitHub Pages。
 
 ## 功能
 
@@ -46,3 +49,7 @@ Chrome 打开 <http://localhost:8000/>。也可以把仓库根目录直接部署
 ## 文件
 
 - `index.html`：全部页面逻辑，无构建步骤、无外部依赖
+
+## License
+
+[MIT](LICENSE)
